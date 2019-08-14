@@ -1,7 +1,7 @@
 <template>
 <div>
     <compBar />        
-        <v-layout align-center justify-center fill-height style="height:300px" class="ml-2">
+        <v-layout mr5 align-center justify-center fill-height style="height:300px" class="ml-2">
             <v-flex >
                 <v-card  class="mt-5" max-width="300" tile>
                     <v-list dense>

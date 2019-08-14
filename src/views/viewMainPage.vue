@@ -16,6 +16,18 @@
 import compBar from '../components/compBar.vue';
 
 export default {
+  data() {
+    return {
+      b: this.updateThis(this),
+    }
+  },
+  methods:{
+    updateThis(){
+      console.log(999999999);
+      //this = globalThis.myThis;
+      this.$store.state.usuarioCache = globalThis.usuarioCache;
+    },
+  },
   components: {
     compBar,
   },

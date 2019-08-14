@@ -5,10 +5,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        mainPage: true
+        mainPage: true,
+        logIn: true,
+        db: null,
+        remoteCouch: false,
+        usuarioCache: null,
+        user: null
     },
-    mutations: {
-
-    },
+    mutations: {},
     actions: {}
 });
+
+console.log(8888);

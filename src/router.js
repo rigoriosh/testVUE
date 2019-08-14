@@ -5,7 +5,7 @@ import Login from "./views/viewLogin.vue";
 Vue.use(Router)
 
 export default new Router({
-    mode: "history",
+    mode: "hash",
     base: process.env.BASE_URL,
     routes: [{
             path: "/form1",
@@ -31,16 +31,10 @@ export default new Router({
                 import ("./views/Formularios.vue")
         },
         {
-            path: "/catchData",
-            name: "catchData",
-            component: () =>
-                import ("./views/CatchData.vue")
-        },
-        {
             path: "/test1",
             name: "testView",
             component: () =>
-                import ("./views/tests/test1.vue")
+                import ("./views/tests/test2.vue")
         }
     ]
 });

@@ -16,6 +16,7 @@
     "roboto-fontface": "*",
     "vue": "^2.6.10",
     "vue-firebase": "^1.0.8",
+    "vue-pouch-db": "^2.0.2",
     "vue-router": "^3.0.3",
     "vuetify": "^2.0.0",
     "vuex": "^3.0.1"
